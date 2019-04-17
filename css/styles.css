@@ -1,0 +1,44 @@
+.contain {
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.contain article {
+  flex: 1;
+}
+
+#mirrorone {
+  border: .1rem solid red;
+  height: 4rem;
+  width: 8rem;
+}
+
+#mirrortwo {
+  border: .1rem solid blue;
+  height: 4rem;
+  width: 8rem;
+}
+
+#container {
+  display: flex;
+  min-height: 1500px;
+}
+
+#audrey {
+  background-color: purple;
+  color: snow;
+  min-height: 100px;
+  width: 50px;
+  position: fixed;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
